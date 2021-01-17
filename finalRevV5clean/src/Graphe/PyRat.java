@@ -170,6 +170,7 @@ public class PyRat {
 
         List<Point> marqueé = new ArrayList<>();
         distance.put(_from, 0);
+        /*CHEMIN  */
         return dfs(laby, _from, marqueé);
     }
 
@@ -177,11 +178,26 @@ public class PyRat {
         marquée.add(from);
         for (Point p : laby.get(from)) {
             if (!(marquée.contains(p))) {
+                 /*routage.put(p,from)*/
                 distance.put(p, distance.get(from) + 1);
                 dfs(laby, p, marquée);
             }
         }
+        /*return routage*/
         return distance;
+    }
+
+
+    } public List path_to(Map:routage,Point de, Point a){
+     if (routage.keySet().contains(de) & routage.keySet().contains(a) & routage.get(de) != null) {
+            Point current = a;
+            while (current != null) {
+                path_list.add(0, current);
+                current = routage.get(current);
+            }
+
+        }return path_list;
+
     }
 
     /* Affiche le labyrinthe. */
