@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/Arbre/ArbreBinaire.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Arbre/ArbreBinaireRecherche.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Arbre/ArbreNrFils.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/ClasseGenerique/Generic.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/ClasseGenerique/genrique.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/PileFile/pileFile.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/python/andyrecap" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/python/binsearchtree.py" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/python/graph.py" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/python/plusCourChemin" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/python/trie.py" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
